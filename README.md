@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Anushka&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20MERN%20Developer&descColor=38BDF8&descAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Anushka&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer&descColor=38BDF8&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+MERN+Developer;Next.js+%7C+React+%7C+Node.js;AI+Chatbot+Integration;B.Tech+CS+%40+AKGEC)](https://github.com/anushka8923)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Next.js+%7C+React+%7C+Node.js;AI+Chatbot+Integration;B.Tech+CS+%40+AKGEC)](https://github.com/anushka8923)
 
 <br/>
 
@@ -23,9 +23,8 @@
 
 - 🎓 **Education:** B.Tech in Computer Science @ Ajay Kumar Garg Engineering College (2023-2027)
 - 📊 **CGPA:** 7.75
-- 💻 **Tech Focus:** MERN Stack, Next.js & AI-powered feature integration
+- 💻 **Tech Focus:** Full Stack Development, Next.js & AI-powered feature integration
 - 💼 **Experience:** Full Stack Developer Intern @ Baloon
-- 🌐 **Interests:** Full Stack Development, REST APIs & AI Integration
 - 📫 **Reach Me At:** [anushka892360@gmail.com](mailto:anushka892360@gmail.com)
 
 ---
@@ -67,7 +66,6 @@
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ### 🛠️ Tools & Platforms
 
@@ -91,15 +89,15 @@
 **AI-Powered Booking Platform**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anushka8923/ai-barber-shop)
+[![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=vercel&logoColor=white)](YOUR_AI_BARBER_SHOP_LIVE_URL)
 
 `Next.js 15` `React 19` `Tailwind CSS`  
 `Node.js` `Express.js` `MongoDB`
 
-- Built a full-stack barber shop booking platform.
-- Integrated a **Groq-powered AI chatbot** for services, pricing, hairstyle recommendations, and barber consultation.
-- Implemented real-time slot availability and booking updates using **Socket.IO**.
-- Developed JWT authentication with bcrypt password hashing.
-- Added admin workflows for managing barbers, services, slots, and appointments.
+- Built a full-stack barber shop booking platform using Next.js 15, React 19, Tailwind CSS, Node.js, Express.js, and MongoDB.
+- Integrated a **Groq-powered AI chatbot** for customer queries on services, pricing, hairstyle recommendations, and barber consultation.
+- Implemented real-time slot availability and booking updates using **Socket.IO**, allowing users to view reservation changes without refreshing the page.
+- Developed JWT-based authentication with bcrypt password hashing and admin workflows for managing barbers, services, slots, and appointments.
 - Implemented REST API communication using Axios and EmailJS notifications for booking confirmations.
 
 </td>
@@ -116,10 +114,9 @@
 `Next.js` `React.js` `TypeScript`  
 `Tailwind CSS` `Node.js` `Express.js` `PostgreSQL`
 
-- Built a full-stack platform for exploring, filtering, and comparing engineering colleges.
+- Built a full-stack platform for exploring, filtering, and comparing engineering colleges with a responsive user interface.
 - Developed the frontend using Next.js, React.js, TypeScript, and Tailwind CSS.
-- Created Node.js/Express.js REST APIs with PostgreSQL.
-- Implemented college comparison, predictor, and detailed college pages.
+- Created Node.js/Express.js REST APIs with PostgreSQL and implemented college comparison, predictor, and detailed college pages.
 
 </td>
 
