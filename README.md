@@ -1,126 +1,362 @@
-<div align="center">
+\documentclass[10pt,letterpaper]{article}
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Anushka&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20MERN%20Developer&descColor=38BDF8&descAlignY=55&animation=fadeIn" width="100%"/>
+% =========================================================
+% PACKAGES
+% =========================================================
 
-<br/>
+\usepackage[
+    top=0.30in,
+    bottom=0.28in,
+    left=0.42in,
+    right=0.42in
+]{geometry}
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+MERN+Developer;Next.js+%7C+React+%7C+Node.js;B.Tech+CS+%40+AKGEC)](https://github.com/anushka8923)
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\usepackage{ragged2e}
 
-<br/>
+% =========================================================
+% COLORS
+% =========================================================
 
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anushka892360@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anushka8923)
+\definecolor{primary}{HTML}{302B63}
+\definecolor{secondary}{HTML}{38BDF8}
+\definecolor{accent}{HTML}{7C3AED}
+\definecolor{dark}{HTML}{1F2937}
+\definecolor{gray}{HTML}{6B7280}
 
-</div>
+\definecolor{cpp}{HTML}{00599C}
+\definecolor{cblue}{HTML}{A8B9CC}
+\definecolor{js}{HTML}{F7DF1E}
+\definecolor{ts}{HTML}{3178C6}
+\definecolor{react}{HTML}{61DAFB}
+\definecolor{next}{HTML}{111111}
+\definecolor{tailwind}{HTML}{06B6D4}
+\definecolor{node}{HTML}{339933}
+\definecolor{express}{HTML}{222222}
+\definecolor{mongo}{HTML}{47A248}
+\definecolor{postgres}{HTML}{4169E1}
+\definecolor{git}{HTML}{F05032}
+\definecolor{vercel}{HTML}{111111}
+\definecolor{render}{HTML}{46E3B7}
+\definecolor{groq}{HTML}{8B5CF6}
 
----
+% =========================================================
+% HYPERLINKS
+% =========================================================
 
-## 👩‍💻 About Me
+\hypersetup{
+    colorlinks=true,
+    urlcolor=secondary,
+    linkcolor=primary
+}
 
-👋 Hi there! I'm **Anushka**, a passionate **Full Stack MERN Developer** based in Ghaziabad, India. I specialize in building scalable web applications, responsive interfaces, and RESTful APIs. 
+% =========================================================
+% PAGE
+% =========================================================
 
-- 🎓 **Education:** B.Tech in Computer Science @ Ajay Kumar Garg Engineering College (2023-2027).
-- 📊 **Academics:** 7.75 CGPA
-- 💻 **Tech Focus:** MERN Stack, Next.js, & AI-powered feature integration.
-- 💼 **Open To:** Full Stack Developer Opportunities
-- 📫 **Reach Me At:** [anushka892360@gmail.com](mailto:anushka892360@gmail.com)
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
 
----
+% =========================================================
+% SECTION STYLE
+% =========================================================
 
-## 🚀 Technical Skills
+\titleformat{\section}
+    {\large\bfseries\color{primary}}
+    {}
+    {0pt}
+    {}
+    [\vspace{-5pt}
+     \color{secondary}\rule{\textwidth}{1.2pt}]
 
-**💻 Languages**
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+\titlespacing*{\section}
+    {0pt}{5pt}{3pt}
 
-**🎨 Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+% =========================================================
+% LIST STYLE
+% =========================================================
 
-**⚙️ Backend & Concepts**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logoColor=white)
-![JWT Auth](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![DSA](https://img.shields.io/badge/DSA-FF6B6B?style=flat-square&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-8B5CF6?style=flat-square&logoColor=white)
+\setlist[itemize]{
+    leftmargin=0.19in,
+    label=\textcolor{secondary}{\small\faAngleRight},
+    itemsep=0.25pt,
+    topsep=0.5pt,
+    parsep=0pt,
+    partopsep=0pt
+}
 
-**🗄️ Databases & Tools**
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+% =========================================================
+% CUSTOM SKILL BADGE
+% =========================================================
 
----
+\newcommand{\skill}[2]{%
+    \tikz[baseline=-0.6ex]
+    \node[
+        rounded corners=3pt,
+        fill=#1!12,
+        draw=#1!55,
+        line width=0.35pt,
+        inner xsep=5pt,
+        inner ysep=2pt,
+        font=\scriptsize\bfseries
+    ] {#2};
+    \hspace{1.5pt}
+}
 
-## 🏗️ Featured Projects
+% =========================================================
+% DOCUMENT
+% =========================================================
 
-<table>
-<tr>
-<td width="50%" valign="top">
+\begin{document}
 
-### 🛒 Green Cart (MERN E-commerce)
-**[GitHub](#) · [Live](#)**
+% =========================================================
+% HEADER
+% =========================================================
 
-`MongoDB` `Express.js` `React.js` `Node.js` `Tailwind CSS`
+\begin{center}
 
-- Built a full-stack grocery delivery platform with responsive UI.
-- Implemented product listing, filtering, and cart management.
-- Developed RESTful APIs for auth, product handling, and order management.
-- Integrated secure online payment functionality for smooth checkout.
-- Deployed frontend on Vercel and backend on Render.
+    {\fontsize{25}{28}\selectfont
+    \textbf{\textcolor{primary}{Anushka}}}
 
-</td>
-<td width="50%" valign="top">
+    \\[-1pt]
 
-### 🎓 College Discovery Platform
-**[GitHub](#) · [Live](#)**
+    {\small
+    \textcolor{secondary}{\textbf{Full Stack MERN Developer}}
+    }
 
-`Next.js` `React.js` `TypeScript` `Node.js` `Express.js` `PostgreSQL`
+    \\[5pt]
 
-- Built a full-stack platform for exploring, filtering, and comparing engineering colleges.
-- Created RESTful APIs using Node.js, Express, and PostgreSQL for dynamic data management.
-- Implemented compare, predictor, and detailed college pages.
-- Ensured optimized API integration and seamless UI experience.
+    {\small
+    \faPhone\ +91-8077838539
+    \quad
+    \textcolor{gray}{|}
+    \quad
+    \href{mailto:anushka892360@gmail.com}
+    {\textcolor{dark}{\faEnvelope\ anushka892360@gmail.com}}
+    \quad
+    \textcolor{gray}{|}
+    \quad
+    \href{https://github.com/anushka8923}
+    {\textcolor{dark}{\faGithub\ GitHub}}
+    \quad
+    \textcolor{gray}{|}
+    \quad
+    \href{https://www.linkedin.com/in/anushka8923/}
+    {\textcolor{dark}{\faLinkedin\ LinkedIn}}
+    \quad
+    \textcolor{gray}{|}
+    \quad
+    \href{https://leetcode.com/u/anushka8923/}
+    {\textcolor{dark}{\faCode\ LeetCode}}
+    }
 
-</td>
-</tr>
-</table>
+\end{center}
 
----
+% =========================================================
+% ABOUT ME
+% =========================================================
 
-## 💼 Experience & Leadership
+\section*{\faUser\quad About Me}
 
-| Role | Organization | Details |
-|------|--------------|---------|
-| **Frontend Developer Intern** | Code Alpha | Sep 2025 - Oct 2025 (Remote). Built UI components like calculator, music player, and image gallery. Improved overall UI responsiveness and user experience. |
-| **Member** | Value Education Cell, AKGEC | Coordinated with team members and supported event management. |
+Full Stack Developer skilled in building scalable web applications, RESTful APIs, and responsive interfaces. Experienced in JWT authentication, payment integration, database management, deployment, and AI-powered feature integration.
 
----
+% =========================================================
+% TECHNICAL SKILLS
+% =========================================================
 
-## 🏆 Certifications
+\section*{\faLaptopCode\quad Technical Skills}
 
-- 🚩 **Capture The Flag (CTF) Participation** — CyberGeek 26, GeekHaven, IIIT Allahabad.
-- 🤖 **Machine Learning Certification** — Infosys.
+\textbf{\textcolor{primary}{\faCode\ Languages}}\\[-1pt]
+\skill{cpp}{C++}
+\skill{cblue}{C}
+\skill{js}{JavaScript}
+\skill{ts}{TypeScript}
 
----
+\vspace{2pt}
 
-<div align="center">
+\textbf{\textcolor{primary}{\faPaintBrush\ Frontend}}\\[-1pt]
+\skill{html}{HTML}
+\skill{css}{CSS}
+\skill{react}{React.js}
+\skill{next}{Next.js}
+\skill{tailwind}{Tailwind CSS}
 
-**B.Tech CS @ AKGEC | Full Stack MERN Developer | Ghaziabad, UP**
+\vspace{2pt}
 
-### Let's Connect! 🚀
+\textbf{\textcolor{primary}{\faServer\ Backend \& Concepts}}\\[-1pt]
+\skill{node}{Node.js}
+\skill{express}{Express.js}
+\skill{secondary}{REST APIs}
+\skill{accent}{JWT Authentication}
+\skill{accent}{DSA}
+\skill{accent}{OOP}
+\skill{accent}{CRUD Operations}
+\skill{secondary}{API Integration}
 
-[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anushka892360@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anushka8923)
+\vspace{2pt}
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+\textbf{\textcolor{primary}{\faRobot\ AI Integration}}\\[-1pt]
+\skill{groq}{Groq AI SDK}
+\skill{accent}{AI Chatbot Integration}
 
-</div>
+\vspace{2pt}
+
+\textbf{\textcolor{primary}{\faDatabase\ Databases \& Tools}}\\[-1pt]
+\skill{mongo}{MongoDB}
+\skill{postgres}{PostgreSQL}
+\skill{accent}{Redis}
+\skill{git}{Git}
+\skill{git}{GitHub}
+\skill{vercel}{VS Code}
+\skill{vercel}{Vercel}
+\skill{render}{Render}
+
+\vspace{2pt}
+
+\textbf{\textcolor{primary}{\faUsers\ Soft Skills}}\\[-1pt]
+\skill{secondary}{Problem Solving}
+\skill{secondary}{Effective Communication}
+\skill{secondary}{Team Collaboration}
+\skill{secondary}{Leadership}
+
+% =========================================================
+% FEATURED PROJECTS
+% =========================================================
+
+\section*{\faRocket\quad Featured Projects}
+
+\textbf{\textcolor{primary}{\faCut\quad AI Barber Shop --- AI-Powered Booking Platform}}
+\hfill
+\href{https://github.com/anushka8923/ai-barber-shop}
+{\textcolor{secondary}{\faGithub\ GitHub}}
+\quad
+\href{https://github.com/anushka8923/ai-barber-shop}
+{\textcolor{secondary}{\faExternalLinkAlt\ Live}}
+
+\begin{itemize}
+
+    \item Built a full-stack barber shop booking platform using Next.js 15, React 19, Tailwind CSS, Node.js, Express.js, and MongoDB.
+
+    \item Integrated a Groq-powered AI chatbot for customer queries on services, pricing, hairstyle recommendations, and barber consultation.
+
+    \item Implemented real-time slot availability and booking updates using Socket.IO, allowing users to view reservation changes without refreshing the page.
+
+    \item Developed JWT-based authentication with bcrypt password hashing and admin workflows for managing barbers, services, slots, and appointments.
+
+    \item Implemented REST API communication using Axios and EmailJS notifications for booking confirmations.
+
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{\textcolor{primary}{\faUniversity\quad College Discovery Platform}}
+\hfill
+\href{https://github.com/anushka8923/college-discovery-platform}
+{\textcolor{secondary}{\faGithub\ GitHub}}
+\quad
+\href{https://college-discovery-platform-black.vercel.app/}
+{\textcolor{secondary}{\faExternalLinkAlt\ Live}}
+
+\begin{itemize}
+
+    \item Built a full-stack platform for exploring, filtering, and comparing engineering colleges with a responsive user interface.
+
+    \item Developed the frontend using Next.js, React.js, TypeScript, and Tailwind CSS.
+
+    \item Created Node.js/Express.js REST APIs with PostgreSQL and implemented college comparison, predictor, and detailed college pages.
+
+\end{itemize}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+
+\section*{\faBriefcase\quad Experience}
+
+\textbf{\textcolor{primary}{Full Stack Developer Intern --- Baloon}}
+\hfill
+\textbf{May 31, 2026 -- Aug 31, 2026}
+
+\textit{\textcolor{gray}{Remote}}
+
+\begin{itemize}
+
+    \item Developed full-stack features using React.js, Node.js, Express.js, MongoDB, Redis, and REST APIs for a production event platform.
+
+    \item Built Campus Lead Dashboard with task submission, review, resubmission, TAT, scoring, wallet, rewards, leaderboard, independent task workflows, and bulk assignment.
+
+    \item Implemented Event Queries, Past Events, Winners Showcase, voting validation, hobby/category filtering with Redis caching, and travel features including social verification and participant management.
+
+    \item Integrated Razorpay payments, dynamic coupons, digital receipts, Google OAuth, JWT refresh, public APIs, admin fixes, and profile/reels management.
+
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{\textcolor{primary}{Frontend Developer Intern --- Code Alpha}}
+\hfill
+\textbf{Sep 2025 -- Oct 2025}
+
+\textit{\textcolor{gray}{Remote}}
+
+\begin{itemize}
+
+    \item Developed responsive interfaces and applications using HTML, CSS, and JavaScript, including a calculator, music player, and image gallery.
+
+\end{itemize}
+
+% =========================================================
+% LEADERSHIP
+% =========================================================
+
+\section*{\faUsers\quad Leadership}
+
+\begin{itemize}
+
+    \item Member, Value Education Cell, AKGEC --- coordinated with team members and supported event management.
+
+\end{itemize}
+
+% =========================================================
+% CERTIFICATIONS
+% =========================================================
+
+\section*{\faTrophy\quad Certifications}
+
+\begin{itemize}
+
+    \item \textcolor{secondary}{\faFlag}\quad
+    CyberGeek'26 Capture The Flag (CTF) Competition Participation Certificate --- GeekHaven, IIIT Allahabad.
+
+    \item \textcolor{accent}{\faCertificate}\quad
+    Machine Learning Certification --- Infosys.
+
+\end{itemize}
+
+% =========================================================
+% EDUCATION
+% =========================================================
+
+\section*{\faGraduationCap\quad Education}
+
+\textbf{\textcolor{primary}{Ajay Kumar Garg Engineering College Ghaziabad}}
+
+\vspace{1pt}
+
+B.Tech in Computer Science
+\hfill
+\textbf{\textcolor{accent}{CGPA: 7.75 \quad 2023 -- 2027}}
+
+% =========================================================
+
+\end{document}
