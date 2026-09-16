@@ -89,7 +89,7 @@
 **AI-Powered Booking Platform**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anushka8923/ai-barber-shop)
-[![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=vercel&logoColor=white)](YOUR_AI_BARBER_SHOP_LIVE_URL)
+[![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=vercel&logoColor=white)](https://ai-barber-shop.vercel.app/)
 
 `Next.js 15` `React 19` `Tailwind CSS`  
 `Node.js` `Express.js` `MongoDB`
